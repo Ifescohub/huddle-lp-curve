@@ -96,6 +96,7 @@ nav .btn {
     background: var(--pink);
     padding: 13px 37px;
     font-size: 12px;
+    margin-bottom: 20px;
   }
   
   .hero-description .btn:hover {
@@ -113,7 +114,7 @@ nav .btn {
     display: flex;
     align-self: center;
     justify-content: space-between;
-    margin: 40px auto;
+    margin: 50px auto 0;
 
 }
 
@@ -121,8 +122,8 @@ nav .btn {
     width: 2rem;
 }
 
-#counter h1{
-    font-size: 55px;
+#counter h2{
+    font-size: 70px;
     margin: -8px 0;
 }
 
@@ -138,7 +139,7 @@ nav .btn {
     display: flex;
     flex-direction: column;
     place-items: center;
-    margin: 100px 0;
+    margin: 70px 0 100px;
 }
 
 [class*="service-"]{
@@ -260,6 +261,10 @@ nav .btn {
     filter: invert(60%);
 }
 
+.footer-logo h2{
+    font-size: 30px;
+}
+
 .footer-icon{
     width: 15px;
     padding-right: 10px;
@@ -267,6 +272,13 @@ nav .btn {
 
 .newsletter{
     width: 40%;
+}
+
+label{
+    display: block;
+    font-size: 13px;
+    padding: 5px 20px 20px 0;
+    font-weight: 400;
 }
 
 textarea{
@@ -305,6 +317,11 @@ textarea{
 .footer-2 i:hover{
     color: var(--Light-Pink);
     text-decoration: overline;
+}
+
+.sr-only{
+    position: absolute;
+    visibility: hidden;
 }
 
 .attribution { 
@@ -415,7 +432,7 @@ textarea{
         display: flex;
         flex-direction: column;
         place-items: center;
-        margin: 100px 0;
+        margin: 40px 0 100px;
     }
 
     [class*="service-"]{
