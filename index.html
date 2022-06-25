@@ -35,26 +35,25 @@
     <div class="hero-image">
       <img src="images/screen-mockups.svg" alt="Gadget Illustrator">
     </div>
+
+    <article id="counter">
+      <div class="counter-1">
+        <img src="images/icon-communities.svg" alt="Communities svg">
+        <h2> 1.4k+</h2>
+        <p> Communities Formed</p>
+      </div>
+  
+      <div class="counter-2">
+        <img src="images/icon-messages.svg" alt="Message svg">
+        <h2>2.7m+</h2>
+        <p> Messages Sent</p>
+      </div>
+    </article>
   </header>
 
 
-  <article id="counter">
-    <div class="counter-1">
-      <img src="images/icon-communities.svg" alt="Communities svg">
-      <h1> 1.4k+</h1>
-      <p> Communities Formed</p>
-    </div>
-
-    <div class="counter-2">
-      <img src="images/icon-messages.svg" alt="Message svg">
-      <h1>2.7m+</h1>
-      <p> Messages Sent</p>
-    </div>
-  </article>
-
-
   <main id="services">
-    <section class="service_1">
+    <div class="service_1">
       <div class="bg-top-1"></div>
       <section class="service-1">
         <div class="s-details">
@@ -67,7 +66,7 @@
         </div>
       </section>
       <div class="bg-bottom-1"></div>
-    </section>
+    </div>
     
     <section class="service-2">
       <div class="s-details">
@@ -80,7 +79,7 @@
       </div>
     </section>
 
-    <section class="service_3">
+    <div class="service_3">
       <div class="bg-top-2"></div>
       <section class="service-3">
         <div class="s-details">
@@ -93,7 +92,7 @@
         </div>
       </section>
       <div class="bg-bottom-2"></div>
-    </section>
+    </div>
     
   </main>
 
@@ -106,22 +105,23 @@
 
   <footer id="footer">
     <div class="bg-curve"></div>
-    <section class="footer-widget">
+    <div class="footer-widget">
       <section class="footer-1">
         <div class="newsletter">
           <h2>Newsletter</h2>
-          <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-            send you spam or pass on your email address</p>
-            <form action="ifescoguy@gmail.com" method="post">
-              <textarea required></textarea>
-              <button class="btn" type="submit">Subscribe</button>
-            </form>
+          <form action="ifescoguy@gmail.com" method="post">
+            <label for="text">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+              send you spam or pass on your email address
+            </label>
+            <textarea id="text" required></textarea>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
         </div>
   
         <div class="about">
           <div class="footer-logo">
             <img src="images/icon-messages.svg" alt="Logo">
-            <h1> HUDDLE</h1>
+            <h2> HUDDLE</h2>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
             vestibulum a, ultrices quis sem.</p>
@@ -130,11 +130,11 @@
         </div>
       </section>
   
-      <section class="footer-2">
+      <address class="footer-2">
         <div class="icon">
-          <a href="https://www.facebook.com/udeh.ifeanyi.58" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-          <a href="https://www.instagram.com/ifeanyiifesco" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://twitter.com/UdehIfeanyi10" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://www.facebook.com/udeh.ifeanyi.58" target="_blank"><span class="sr-only">facebook</span><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/ifeanyiifesco" target="_blank"><span class="sr-only">facebook</span><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/UdehIfeanyi10" target="_blank"><span class="sr-only">facebook</span><i class="fa-brands fa-twitter-square"></i></a>
           
         </div>
   
@@ -144,8 +144,8 @@
             Coded by <a href="https://www.frontendmentor.io/profile/Ifescohub" target="_blank">Udeh Ifeanyi</a>.
           </p>
         </div>
-      </section>
-    </section>
+      </address>
+    </div>
   </footer>
 </body>
 </html>
