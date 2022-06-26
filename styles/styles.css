@@ -391,7 +391,7 @@ textarea{
     }
 
     nav .btn {
-        padding: 10px 40px;
+        padding: 8px 30px;
     }
     
     .hero-description{
@@ -518,7 +518,7 @@ textarea{
     }
     
     .footer-widget{
-        padding: 2rem 5rem 3rem;
+        padding: 2rem 3rem 3rem;
     } 
     
     .bg-curve{
@@ -539,7 +539,7 @@ textarea{
 
     .about, .newsletter{
         width: unset;
-        margin: 0 2rem 3rem 0;
+        margin: 0 1rem 3rem 0;
     }
 
     textarea{
